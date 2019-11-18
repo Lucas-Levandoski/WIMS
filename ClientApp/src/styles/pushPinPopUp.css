@@ -1,0 +1,21 @@
+﻿.popup {
+    margin-left: -50%;
+    margin-top: -10px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    display: flex;
+    display: grid;
+    padding: 10px;
+    cursor: auto;
+    text-align: center;
+    border: 2px solid black;
+}
+
+    .popup p {
+        font-size: 10px;
+        color: azure;
+        margin: 0;
+        padding: 0;
+    }

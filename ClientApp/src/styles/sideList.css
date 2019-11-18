@@ -1,0 +1,87 @@
+﻿.school_table {
+    border-collapse: separate;
+    border-spacing:;
+    width: 100%;
+    margin: 0;
+    font-size: 10px;
+}
+
+    .school_table tr {
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: #fafafa;
+    }
+    
+    .school_table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .school_table tr:hover {
+        background-color: #a2f2f2;
+    }
+
+    .school_table tr th {
+        background-color: none;
+    }
+
+
+    .school_table td:first-child {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .school_table td {
+        padding: 10px;
+    }
+
+    .school_table td:last-child {
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .school_table thead {
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+input.findSchool {
+    padding: 3px;
+    border: 1px solid gray;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+form.findSchool {
+    padding: 10px;
+    background-color: cadetblue;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+
+.SearchButton {
+    border: hidden;
+    background-color: aliceblue;
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 0;
+    align-items: center;
+}
+
+.SearchButton svg {
+    height: 70%;
+    width: 70%;
+    color: dimgray;
+}
+
+.tablePin {
+    color: red;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    cursor: pointer;
+}
